@@ -9,24 +9,24 @@ E-parking je aplikacija koja omogućava jednostavan pronalazak parkinga u gradsk
 
 Ako vam je dosta svakodnog stresiranja u potrazi za parkingom za vas je tu E-parking :D
 ## Funkcionalnosti:
-##### Neregistrovani korisnik:
+#### Neregistrovani korisnik:
 - Ima mogućnost pregleda osnovnih informacija o svakom parkingu u bazi podataka aplikacije
 - Može da vidi mapu grada modifikovanu tako da su parking mjesta u fokusu
 - Može da zatraži parking mjesto na unesenoj adresi i pri tome dobije sve parkinge u blizini, te najkraći put do parkinga gdje ima slobodno mjesto
 - Ima mogućnost pregleda javnih feedback komentara registrovanih korisnika
-##### Registrovani korisnik:
+#### Registrovani korisnik:
 -  Ima sve mogućnosti kao i neregistrovani korisnik
 - Pored toga, može da rezerviše parking mjesto
 - Ima mogućnost ocjene usluge parkinga ( odnos cijene i kvaliteta )
 - Može da ostavlja komentare/feedback o samoj aplikaciji
-###### Upravnik parkinga:
+#### Upravnik parkinga:
 - Registruje se u sistem
 - Može da vidi svoje prijavljene parkinge, dodaje nove i ažurira postojeće	
 - Ažurira broj slobodnih mjesta u realnom vremenu
 - Može da vidi statistike o parkinzima na svom dashboardu ( broj korisnika koji su posjetili parking, novac koji je zaradio u određenom periodu i sl. ) 
 - Može da vidi komentare korisnika parkinga ili da zabrani postavjanje istih
 - Može da ostavlja komentare/feedback o samoj aplikaciji
-###### Administrator:
+#### Administrator:
 - Posjeduje mogućnosti pregleda svih registrovanih korisnika
 - Brisanje korisnika po potrebi
 - Čitanje feedback komentara od strane korisnika
