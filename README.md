@@ -31,7 +31,7 @@ Ako vam je dosta svakodnog stresiranja u potrazi za parkingom za vas je tu E-par
 - Brisanje korisnika po potrebi
 - Čitanje feedback komentara od strane korisnika
 ## Akteri:
-- Registrovani 
 - Neregistrovani korisnik
+- Registrovani korisnik
 - Upravnik parkinga
 - Administrator
