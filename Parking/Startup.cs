@@ -26,6 +26,7 @@ namespace Parking
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddDbContext<ParkingContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DbConnection")));
         }
@@ -33,9 +34,12 @@ namespace Parking
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseBrowserLink();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {

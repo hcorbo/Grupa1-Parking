@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mehmed\\source\\repos\\Parking\\Parking\\Parking.csproj": {}
+    "C:\\Users\\Mehmed\\Desktop\\ETF\\Cetvrti semestar\\OOAD\\Parking\\Parking\\Parking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mehmed\\source\\repos\\Parking\\Parking\\Parking.csproj": {
+    "C:\\Users\\Mehmed\\Desktop\\ETF\\Cetvrti semestar\\OOAD\\Parking\\Parking\\Parking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehmed\\source\\repos\\Parking\\Parking\\Parking.csproj",
+        "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\ETF\\Cetvrti semestar\\OOAD\\Parking\\Parking\\Parking.csproj",
         "projectName": "Parking",
-        "projectPath": "C:\\Users\\Mehmed\\source\\repos\\Parking\\Parking\\Parking.csproj",
+        "projectPath": "C:\\Users\\Mehmed\\Desktop\\ETF\\Cetvrti semestar\\OOAD\\Parking\\Parking\\Parking.csproj",
         "packagesPath": "C:\\Users\\Mehmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehmed\\source\\repos\\Parking\\Parking\\obj\\",
+        "outputPath": "C:\\Users\\Mehmed\\Desktop\\ETF\\Cetvrti semestar\\OOAD\\Parking\\Parking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -51,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.BrowserLink": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
